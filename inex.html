@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-wrapper">
+            <div class="display">
+                <h1 id="showdata">0</h1>
+            </div>
+            <div class="buttons">
+                <button id="clear" onclick="cleardata()">
+                    <i class="fa-solid fa-c"></i>
+                </button>
+                <button id="backspace" onclick="removedata()">
+                    <i class="fa-solid fa-delete-left"></i>
+                </button>
+                <button class="btn" onclick="percentage()">
+                    <i class="fa-solid fa-percent"></i>
+                </button>
+                <button class="btn" onclick="getdata('/')">
+                    <i class="fa-solid fa-divide"></i>
+                </button>
+                <button class="btn" onclick="getdata(7)">7</button>
+                <button class="btn" onclick="getdata(8)">8</button>
+                <button class="btn" onclick="getdata(9)">9</button>
+                <button class="btn" onclick="getdata('*')">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <button class="btn" onclick="getdata(4)">4</button>
+                <button class="btn" onclick="getdata(5)">5</button>
+                <button class="btn" onclick="getdata(6)">6</button>
+                <button class="btn" onclick="getdata('-')">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+                <button class="btn" onclick="getdata(1)">1</button>
+                <button class="btn" onclick="getdata(2)">2</button>
+                <button class="btn" onclick="getdata(3)">3</button>
+                <button class="btn" onclick="getdata('+')">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="btn" onclick="getdata('00')">00</button>
+                <button class="btn" onclick="getdata(0)">0</button>
+                <button class="btn" onclick="getdata('.')">.</button>
+                <button class="btn" onclick="result()">
+                    <i class="fa-solid fa-equals"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/all.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
